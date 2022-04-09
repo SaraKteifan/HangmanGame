@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Hangman Game</title>
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Orange Coding Academy <br>Hangman Game</h1>
+        <hr>
+        <p>Use the alphabetic letters bellow to guess the word, or you will be hanged!<br>Click on hint to get a clue about the word.</p>
+    </div>
+    <div class="wrapper">
+        <canvas id="stickman">This text will show if the browser does not support HTML5 canvas tag</canvas>
+        <p id="mylives"></p>
+        <div id="buttons"></div>
+        <p id="categoryName"></p>
+        <div id="hold"></div>
+        <p id="clue"> Clue -</p>
+        <div class="container">
+            <button id="hint">Hint</button>
+            <button id="reset">Play again</button>
+        </div>
+    </div>
+</body>
+<script src="./app/app.js"></script>
+</html>
